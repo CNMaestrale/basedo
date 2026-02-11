@@ -1,0 +1,55 @@
+#nav
+  nav
+    background: transparent !important
+    #logo
+      padding-top: 0px
+      padding-bottom: 0px
+      img
+        padding-right: 0.5rem
+        height: 3.5rem
+        max-height: 3.5rem
+    .navbar-item
+      color: #fff
+      background: transparent
+      &:hover
+        background:  #00000055
+    .navbar-end
+      .navbar-item:not(:last-child)
+        border-right: 1px solid #ffffff50
+
+  #banner
+    background: url(/assets/images/banner.jpg) center repeat-x
+    border-bottom: 2px #472778e0 solid
+  #ribbon
+    background: #472778e0
+#top-title
+  width: fit-content
+  margin: -3rem auto 1rem auto
+  background: var(--bulma-box-background-color)
+  padding: 0.5rem
+  border-radius: var(--bulma-box-radius)
+  box-shadow: var(--bulma-box-shadow)
+aside
+  margin-bottom: 2rem
+.turbo-progress-bar 
+  position: fixed
+  display: block
+  top: 0
+  left: 0
+  height: 3px
+  background: #0076ff
+  z-index: 2147483647
+  transition: width 300ms ease-out opacity 150ms 150ms ease-in
+  transform: translate3d(0, 0, 0)
+#footer
+  .menu-list
+    a
+      background: transparent
+      &:hover
+        background: #ccc
+  .column.menu
+    border-left: 1px solid #b9b9b9
+
+.list-item:hover
+  border-left: 0.3em #472778e0 solid
+  padding-left: 0.5em !important

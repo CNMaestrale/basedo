@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<article>
+  <div class="box">
+    {% include top_title.html %}
+    <div class='content'>
+      {{ content }}
+    </div>
+  </div>
+</article>

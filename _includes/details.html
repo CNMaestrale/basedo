@@ -1,0 +1,9 @@
+{% if post.date %}
+  <span class="tag is-primary is-light rounded">{{ post.date | date: "%-d/%m/%Y" }}</span>
+{% elsif page.date %}
+  <span class="tag is-primary is-light rounded">{{ page.date | date: "%-d/%m/%Y" }}</span>
+{% endif %}
+{% for tag in page.categories %} <span class="tag is-success is-light is-rounded">{{tag}}</span> {% endfor %}
+{% for tag in page.tags %} <span class="tag is-rounded">{{tag}}</span> {% endfor %}
+{% for tag in post.categories %} <span class="tag is-success is-light is-rounded">{{tag}}</span> {% endfor %}
+{% for tag in post.tags %} <span class="tag is-rounded">{{tag}}</span> {% endfor %}

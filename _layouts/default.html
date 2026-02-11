@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "it" }}" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="{{ "/assets/images/favicon.svg" | relative_url }}">
+    <link rel="mask-icon" href="{{ "/assets/images/favicon.svg" | relative_url }}" color="#000000">
+    <link rel="apple-touch-icon" href="{{ "/assets/images/apple-touch-icon.png" | relative_url }}">
+    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/basedo.css" | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="{{ "/assets/javascript/turbo.js" | relative_url }}" defer></script>
+    <script src="{{ "/assets/javascript/basedo.js" | relative_url }}"></script>
+    {%- feed_meta -%}
+  </head>
+  <body>
+    <turbo-frame id="nav" src="/frame/nav.html" target="yield"></turbo-frame>
+    <section class='section has-background-primary-95'>
+      <div class='container'>
+        <div class='columns'>
+          <aside class='column is-3'>
+            <turbo-frame id="aside" src="/frame/aside.html" target="yield"></turbo-frame>
+          </aside>
+          <div class='column'>
+            <turbo-frame id='yield'>{{ content }}</turbo-frame>
+          </div>
+        </div>
+      </div>
+    </section>
+    <turbo-frame id="footer" src="/frame/footer.html" target="yield"></turbo-frame>
+  </body>
+</html>
