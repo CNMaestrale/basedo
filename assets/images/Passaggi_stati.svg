@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="Passaggi_stati.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.5289555"
+     inkscape:cx="495.89744"
+     inkscape:cy="181.21509"
+     inkscape:window-width="1896"
+     inkscape:window-height="973"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2"
+       transform="matrix(0.63341105,0,0,0.65718014,11.309537,-18.77491)">
+      <path
+         id="rect1"
+         style="opacity:0.8;fill:none;stroke:#000000;stroke-width:0.272"
+         d="m 44.153748,75.562431 v 33.415159 c 0,7.11665 -20.001271,6.73395 -20.001271,0 V 75.562431 c 0,-3.047878 5.296624,-15.64065 10.137882,-15.633211 5.149838,0.0079 9.863389,12.799212 9.863389,15.633211 z"
+         sodipodi:nodetypes="ssssss" />
+      <text
+         xml:space="preserve"
+         style="font-size:9.49279px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.731917"
+         x="64.110374"
+         y="-35.32259"
+         id="text1"
+         transform="matrix(0,1.1185154,-0.89404221,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.731917"
+           x="64.110374"
+           y="-35.32259">Lancia</tspan></text>
+    </g>
+    <g
+       id="g1"
+       transform="matrix(0.63341105,0,0,0.65718014,113.86507,-15.153124)">
+      <path
+         id="rect1-3"
+         style="opacity:0.8;fill:none;stroke:#000000;stroke-width:0.156481"
+         d="m 59.325799,82.280587 v 21.185903 c 0,2.85961 -1.956003,10.37062 -3.945273,10.37954 -2.058109,0.009 -4.151828,-7.48572 -4.151828,-10.28519 V 82.280587 c 0,-2.491776 2.144229,-12.786924 4.104112,-12.780842 2.084805,0.0065 3.992989,10.463922 3.992989,12.780842 z"
+         sodipodi:nodetypes="sssssss" />
+      <text
+         xml:space="preserve"
+         style="font-size:9.49279px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.731917"
+         x="70.133316"
+         y="-58.832855"
+         id="text1-5"
+         transform="matrix(0,1.1185154,-0.89404222,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan1-6"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.731917"
+           x="70.133316"
+           y="-58.832855">Canoa</tspan></text>
+    </g>
+    <g
+       id="g1-3"
+       transform="matrix(0.63341105,0,0,0.65718014,121.21551,-15.153124)">
+      <path
+         id="rect1-3-5"
+         style="opacity:0.8;fill:none;stroke:#000000;stroke-width:0.156481"
+         d="m 59.325799,82.280587 v 21.185903 c 0,2.85961 -1.956003,10.37062 -3.945273,10.37954 -2.058109,0.009 -4.151828,-7.48572 -4.151828,-10.28519 V 82.280587 c 0,-2.491776 2.144229,-12.786924 4.104112,-12.780842 2.084805,0.0065 3.992989,10.463922 3.992989,12.780842 z"
+         sodipodi:nodetypes="sssssss" />
+      <text
+         xml:space="preserve"
+         style="font-size:9.49279px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.731917"
+         x="70.133316"
+         y="-58.832855"
+         id="text1-5-6"
+         transform="matrix(0,1.1185154,-0.89404222,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan1-6-2"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.731917"
+           x="70.133316"
+           y="-58.832855">Canoa</tspan></text>
+    </g>
+    <g
+       id="g1-0"
+       transform="matrix(0.63341105,0,0,0.65718014,128.7435,-15.215129)">
+      <path
+         id="rect1-3-9"
+         style="opacity:0.8;fill:none;stroke:#000000;stroke-width:0.156481"
+         d="m 59.325799,82.280587 v 21.185903 c 0,2.85961 -1.956003,10.37062 -3.945273,10.37954 -2.058109,0.009 -4.151828,-7.48572 -4.151828,-10.28519 V 82.280587 c 0,-2.491776 2.144229,-12.786924 4.104112,-12.780842 2.084805,0.0065 3.992989,10.463922 3.992989,12.780842 z"
+         sodipodi:nodetypes="sssssss" />
+      <text
+         xml:space="preserve"
+         style="font-size:9.49279px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.731917"
+         x="70.133316"
+         y="-58.832855"
+         id="text1-5-3"
+         transform="matrix(0,1.1185154,-0.89404222,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan1-6-6"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.731917"
+           x="70.133316"
+           y="-58.832855">Canoa</tspan></text>
+    </g>
+    <path
+       style="opacity:0.8;fill:#000000;stroke:#000000;stroke-width:0.272;stroke-opacity:1"
+       d="M 18.244426,52.842998 H 186.85244"
+       id="path1" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.8;fill:#000000;stroke:none;stroke-width:0.272;stroke-opacity:1"
+       x="24.253599"
+       y="68.272232"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-size:4.23333px;stroke:none;stroke-width:0.272"
+         x="24.253599"
+         y="68.272232">Giungla</tspan></text>
+  </g>
+</svg>

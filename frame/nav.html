@@ -1,0 +1,49 @@
+---
+layout: turbo
+permalink: /frame/nav.html
+---
+
+<turbo-frame id='nav'>
+  <div id="banner">
+    <div id='ribbon'>
+      <div class="container">
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" id="logo" href="/">
+              <img src="/assets/images/logo_1.svg" alt="{{ site.title }}">
+              <img src="/assets/images/logo_2.svg" alt="{{ site.subtitle }}">
+              <span class="is-hidden-desktop is-hidden-desktop is-size-3">{{ site.title }}</span>
+            </a>
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div class="navbar-menu" id="navMenu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="{{ "/chi_siamo" | relative_url }}">
+                <span class="icon-text"><span class="icon"><i class="fas fa-sailboat"></i></span><span>Chi siamo</span></span>
+              </a>
+              <a class="navbar-item" href="{{ "/dove_siamo" | relative_url }}">
+                <span class="icon-text"><span class="icon"><i class="fas fa-map"></i></span><span>Dove siamo</span></span>
+              </a>
+              <a class="navbar-item" href="{{ "/prenota" | relative_url }}">
+                <span class="icon-text"><span class="icon"><i class="fas fa-calendar-days"></i></span><span>Come prenotare</span></span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <section class="hero">
+        <div class="hero-body">
+          <p class="title">{{ site.title }}</p>
+          <p class="subtitle">{{ site.subtitle }}</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</turbo-frame>

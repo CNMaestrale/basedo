@@ -1,0 +1,18 @@
+---
+layout: turbo
+permalink: /frame/aside.html
+---
+<turbo-frame id="aside">
+  <nav class="panel has-background-white">
+    <p class="panel-heading"><span class="icon-text"><span class="icon"><i class="fas fa-list"></i></span><span>Categorie</span></span></p>
+    {% for category in site.categories %}
+      <a href="/category/{{category|first|downcase}}" class="panel-block">{{category|first}}</a>
+    {% endfor %}
+  </nav>
+  <nav class="panel has-background-white">
+    <p class="panel-heading"><span class="icon-text"><span class="icon"><i class="fas fa-tag"></i></span><span>Tag</span></span></p>
+    {% for tag in site.tags %}
+      <a href="/tag/{{tag|first|downcase}}" class="panel-block">{{tag|first}}</a>
+    {% endfor %}
+  </nav>
+</turbo-frame>

@@ -1,0 +1,57 @@
+---
+layout: turbo
+permalink: /frame/footer.html
+---
+
+<turbo-frame id='footer'>
+  <footer>
+   <div id="footer-first" class="has-background-grey-lighter">
+      <div class="container">
+        <section class="section">
+          <div class="columns has-4-desktop has-2-tablet">
+            <div class="column menu">
+              <p class="menu-label"><span class="icon-text"><span class="icon"><i class="fas fa-link"></i></span><span>Collegamenti</span></span></p>
+              <ul class="menu-list">
+                <li><a>AGESCI centrale</a></li>
+                <li><a>Agesci regione Lazio</a></li>
+                <li><a>Mappa</a></li>
+              </ul>
+            </div>
+            <div class="column menu">
+              <p class="menu-label"><span class="icon-text"><span class="icon"><i class="fas fa-file-lines"></i></span><span>Pagine</span></span></p>
+              <ul class="menu-list">
+                <a href="{{ "/chi_siamo" | relative_url }}">Chi siamo</a>
+                <a href="{{ "/dove_siamo" | relative_url }}">Dove siamo</a>
+                <a href="{{ "/prenota" | relative_url }}">Come prenotare</a>
+              </ul>
+            </div>
+            <div class="column menu">
+              <p class="menu-label"><span class="icon-text"><span class="icon"><i class="fas fa-list"></i></span><span>Categorie</span></span></p>
+              <ul class="menu-list">
+                {% for category in site.categories %}
+                <li><a href="/category/{{category|first|downcase}}">{{ category | first }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="column menu">
+              <p class="menu-label"><span class="icon-text"><span class="icon"><i class="fas fa-tag"></i></span><span>Tag</span></span></p>
+              <ul class="menu-list">
+                {% for tag in site.tags %}
+                <li><a href="/tag/{{tag|first|downcase}}">{{ tag | first }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div id="footer-first" class="has-background-primary-lighter">
+      <div class="container is-small">
+        <section class="section has-text-centered has-text-white">
+            <h1 class="title is-6 has-text-white">La base di Edo {{ 'now' | date: "%Y" }}</h1>
+          <h2 class="subtitle is-6 has-text-white" xmlns:cc="http://creativecommons.org/ns#" >This site is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></h2>
+        </section>
+      </div>
+    </div>
+  </footer>
+</turbo-frame>
