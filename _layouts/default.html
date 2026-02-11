@@ -16,12 +16,12 @@
     <script src="{{ "/assets/javascript/basedo.js" | relative_url }}"></script>
   </head>
   <body>
-    <turbo-frame id="nav" src="/frame/nav" target="yield"></turbo-frame>
+    <turbo-frame id="nav" src="/basedo/frame/nav" target="yield"></turbo-frame>
     <section class='section has-background-primary-95'>
       <div class='container'>
         <div class='columns'>
           <aside class='column is-3'>
-            <turbo-frame id="aside" src="/frame/aside" target="yield"></turbo-frame>
+            <turbo-frame id="aside" src="/basedo/frame/aside" target="yield"></turbo-frame>
           </aside>
           <div class='column'>
             <turbo-frame id='yield'>{{ content }}</turbo-frame>
@@ -29,6 +29,6 @@
         </div>
       </div>
     </section>
-    <turbo-frame id="footer" src="/frame/footer" target="yield"></turbo-frame>
+    <turbo-frame id="footer" src="/basedo/frame/footer" target="yield"></turbo-frame>
   </body>
 </html>
