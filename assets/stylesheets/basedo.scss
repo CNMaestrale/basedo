@@ -1,0 +1,33 @@
+---
+---
+
+$basedo-primary: #472778;
+$basedo-primary-opaque: #472778e0;
+
+// Override global Sass variables from the /utilities folder
+@use "utilities" with (
+  $family-primary: '"Nunito", sans-serif',
+  $primary: $basedo-primary
+);
+
+@forward "themes";
+@forward "base";
+@forward "elements";
+@forward "form";
+@use "components" with (
+  $navbar-background-color: $basedo-primary-opaque,
+  $navbar-height: 4rem,
+  $navbar-item-img-max-height: 3rem
+);
+@forward "grid";
+@use "layout" with (
+  $hero-body-padding-tablet: 5rem 3rem
+);
+@forward "base/skeleton";
+@forward "helpers";
+@forward "local.sass";
+@forward "bulma-list.scss";
+@forward "box.sass";
+
+// Import the Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
